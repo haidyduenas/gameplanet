@@ -1,4 +1,4 @@
-# gameplanet
+# Gameplanet
 Game planet es una tienda dedicada al E-comerce, con lo último en video-juegos y consolas.
 Nintendo, XboxOne , PS4 
 

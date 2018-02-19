@@ -1,2 +1,2 @@
-# gameplanet
-Proyecto realizado en Laboratoria , mejorando una pagina ya existente
+# gameplanet-nobugs
+Proyecto grupal de Game Planet

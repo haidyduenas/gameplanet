@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave|Sedgwick+Ave+Display|Rock+Salt|Allerta+Stencil');
+* {
+    /*
+	font-family: 'Rock Salt';
+	font-family: 'Sedgwick Ave Display';
+	font-family: 'Allerta Stencil';
+	font-family: 'Sedgwick Ave';
+	*/
+    font-family: 'Allerta Stencil';
+  /*outline: 1px solid red;*/
+}
+
+body {
+    padding-top: 50px;
+    color: #777;
+}
+.azul{
+  color: #0058AA;
+}
+.rojo{
+  color:#F8331A;
+}
+
+.amarillo{
+
+  color:#FECE08;
+  margin-bottom: 30px;
+}
+
+.separar{
+  padding-top: 20px;
+}
+.btn-amarillo{
+  background-color: #FECE08;
+  color:white;
+}
+
+.borde {
+    border: 1px solid red;
+}
+
+.all-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.navbar-brand {
+    padding: 0 0 20px 0;
+}
+
+.navbar {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.carousel-inner>.item>img {
+    width: 100%;
+    height: 700px;
+}
+
+.footer {
+    padding: 50px 0 20px 0;
+    background-color: #35404f;
+    color: #878c94;
+}
+
+.footer .title {
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+}
+
+.footer .social-icon {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer .social-icon a {
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.footer .acount-icon a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.footer .acount-icon .fa {
+    margin-right: 25px;
+}
+
+.footer .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius: 4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+
+.footer .payment {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none
+}
+
+.footer .payment li {
+    list-style-type: none
+}
+
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+.carousel-inner>.item>img {
+    width: 100%;
+    height: 500px;
+}
+
+.coment{
+    padding:20px;
+    border-bottom:2px solid;
+    border-right:2px solid;
+}
+
+.media-left img {
+    width: 50px;
+}
+
+#contacto {
+    position: relative;
+    background-size: cover;
+    background-image: url("../img/contact-us.jpg");
+
+
+
+
+
+  background-repeat: no-repeat;
+    color: #fff;
+    height: 500px;
+}
+
+
+
+/*gladys*/
+
+.detalles{
+  color: white;
+  background-image: url("../img/descripcion/fondos/fondo-detalles.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 3% 0%;
+
+}
+
+.linea{
+  border-bottom: 1px solid white;
+  margin: 1% 0%;
+  width: 100%;
+}
+
+div img{
+  width: 100%;
+}
+
+.div-img{
+  width: 70%;
+  height: 70%;
+}
+/*
+.zoom{
+  transition: width 2s, height 2s, transform 2s;
+}
+.zoom:hover{
+  transform : scale(2);
+  width: 70%;
+  height: 70%;
+  background: cover;
+}*/
+
+.fondo-div {
+  padding: 2%;
+  background-color: black;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  height: 100%;
+}
+.fondo-div h4{
+  color: white;
+  z-index: 5;
+}
+
+.estrellas{
+  margin-top: 10%;
+}
+
+.fa-5x{
+  color: red;
+}
+
+.row-detalle{
+  margin-top: 3%;
+  width: 100%;
+}
+.snack{
+  width: 90%;
+}
+
+.item-carrito{
+  margin-top: 3%;
+  width: 100%;
+}
+
+.item-carrito li{
+  background-color: transparent;
+}
+
+.list-group-item{
+  padding: 2%;
+}
+
+.card-body .btn-color{
+  width: 100PX;
+  height: 100PX;
+  background-color: transparent;
+
+}
+
+.modal-title{
+  color: black;
+}
+
+.parpadea {
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+div .carita{
+  width: 50%;
+}
+
+@keyframes parpadeo {
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+.btn-color{
+  background-color: #0058AA;
+}
+
+.fondo-div .color-amarillo{
+  color: #FECE08;
+}
+.color-amarillo{
+  color: #FECE08;
+}
+.transparencia{
+  z-index: 100;
+}
+
+
+
+/*Haidy carousel */
+
+.logo{
+    width: 70%;
+}
+.media-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+    margin-top: 30px;
+}
+
+
+/* Previous button  */
+
+.media-carousel .carousel-control.left {
+    left: -12px;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width: 40px;
+    margin-top: 30px
+}
+
+
+/* Next button  */
+
+.media-carousel .carousel-control.right {
+    right: -12px !important;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width: 40px;
+    margin-top: 30px
+}
+
+
+/* Changes the position of the indicators */
+
+.media-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+
+/* Changes the colour of the indicators */
+
+.media-carousel .carousel-indicators li {
+    background: #c0c0c0;
+}
+
+.media-carousel .carousel-indicators .active {
+    background: #333333;
+}
+
+.media-carousel img {
+    width: 150px;
+    height: 200px;
+}
+/* calalogo haidy*/
+.gallery-title
+{
+    font-size: 36px;
+    color: #0058AA;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #0058AA;
+    border-radius: 5px;
+    text-align: center;
+    color: #0058AA;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #0058AA;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #0058AA;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #0058AA;
+    color: white;
+}
+
+.port-image
+{
+  width:100%;
+}
+
+.gallery_product
+{
+  margin-bottom: 30px;
+}
+.gallery-img{
+  width: 100%;
+  height: 200px;
+}
+
+
+/* End carousel */
+
+
+/* Seccion de los ultimos juegos */
+
+#ultimos_juegos{
+    background-color: #E4E1D8;
+    text-align: center;
+}
+
+#ultimos_juegos .container-fluid .container .col-md-4{
+    margin-top: 25px;
+}
+
+#ultimos_juegos .container-fluid .container .col-md-4 .col-md-12 .box-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+#ultimos_juegos .container-fluid .container .col-md-4 .col-md-12 .box-image:hover{
+    cursor: pointer;
+}
+
+.btn-mas {
+    padding: 40px 30px 0px 0px;
+}
+
+.btn-mas button{
+    font-size: 20px;
+}
+
+.info-hover{
+    font-size: 20px;
+}
+
+.info-hover:hover{
+    background-color: #F8331A;
+    border-color: #F8331A;
+}
+
+
+/* Comentarios Jaki */
+
+#comment {
+    background: #fafafa;
+}
+
+.widget-area.blank {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+#comment .no-padding {
+    padding: 0;
+}
+
+.widget-area {
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    float: left;
+    margin-top: 30px;
+    padding: 25px 30px;
+    position: relative;
+    width: 100%;
+}
+
+.status-upload {
+    background: none repeat scroll 0 0 #f5f5f5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    float: left;
+    width: 100%;
+}
+
+.status-upload form {
+    float: left;
+    width: 100%;
+}
+
+.status-upload form textarea {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -ms-border-radius: 4px 4px 0 0;
+    -o-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    color: #777777;
+    float: left;
+    font-family: Lato;
+    font-size: 14px;
+    height: 142px;
+    letter-spacing: 0.3px;
+    padding: 20px;
+    width: 100%;
+    resize: vertical;
+    outline: none;
+    border: 1px solid #F2F2F2;
+}
+
+.status-upload ul {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 0 0 15px;
+    width: auto;
+}
+
+.status-upload ul>li {
+    float: left;
+}
+
+.status-upload ul>li>a {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    color: #777777;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0 10px 10px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 30px;
+    cursor: pointer;
+}
+
+.status-upload ul>li>a:hover {
+    background: none repeat scroll 0 0 #606060;
+    color: #fff;
+}
+
+.status-upload form button {
+    border: medium none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+    float: right;
+    font-family: Lato;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    margin-right: 9px;
+    margin-top: 9px;
+    padding: 6px 15px;
+}
+
+.dropdown>a>span.green:before {
+    border-left-color: #2dcb73;
+}
+
+.status-upload form button>i {
+    margin-right: 7px;
+}

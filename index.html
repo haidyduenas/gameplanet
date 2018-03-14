@@ -47,6 +47,20 @@
             }
         });
     }
+
+              function shaStory(){
+              FB.ui({
+                method: 'share',
+                href: 'www.google.com',
+              }, function(response){
+                   if(response && !response.error_message){
+                    $('#lb_msj').text('link posteado'+response.post_id);
+                  }
+                  else{
+                    $('#lb_msj').text('error ...');
+                  }
+              });
+          }
 </script>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
@@ -169,6 +183,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <button type="button" class="btn btn-info info-hover"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> <a href="assets/detalles.html">Detalles</a></button>
                                 <button id="btn_" class="btn btn-warning btn-lg" onclick="shareStory();">compartir link </button>
+                                <button id="btn_" class="btn btn-warning btn-lg" onclick="shaStory();">compartir link </button>
                             </div>
                             <!-- <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div> -->
                         </div>

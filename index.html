@@ -35,17 +35,12 @@
     function shareStory() {
         FB.ui({
             method: 'feed',
-            link: 'https://www.youtube.com/user/uknow2606',
-            caption: 'videos tutoriales',
-            description: 'canal de sencillos tutoriales',
-            picture: 'https://www.google.co.jp/logos/doodles/2014/doodle-4-google-2014-japan-winner-5109465267306496.2-hp.png',
-        }, function (response) {
-            if (response && !response.error_message) {
-                $('#lb_msj').text('link posteado' + response.post_id);
-            } else {
-                $('#lb_msj').text('error ...');
-            }
-        });
+            link: 'https://haidyduenas.github.io/gameplanet/',
+            caption: 'lol soy yo',
+            app_id : '1404279736385310',
+            redirect_uri:'https://haidyduenas.github.io/gameplanet/',
+            picture:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWo9qTy9kJKm4MvxhjpCCVKRZhElpjC5shXQzmbCAvNRi__ImS",
+            }, function(response){});
     }
 
               function shaStory(){
